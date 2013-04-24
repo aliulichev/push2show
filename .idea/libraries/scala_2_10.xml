@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="scala-2.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/scala-2.10/push2show_2.10-1.0-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/scala-2.10/push2show_2.10-1.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/scala-2.10/push2show_2.10-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,67 @@
+<component name="libraryTable">
+  <library name="staged">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/staged/spring-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/templates_2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/sbt-link.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/akka-actor_2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/avaje-ebeanorm-agent.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/play-java-jdbc_2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/avaje-ebeanorm-server.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/push2show_2.10-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/joda-convert.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/signpost-commonshttp4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/javax.servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/avaje-ebeanorm-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/play-iteratees_2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/httpclient.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/hibernate-validator.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/jsr305.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/spring-context.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/netty.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/async-http-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/jul-to-slf4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/slf4j-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/jcl-over-slf4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/scala-io-core_2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/scala-library.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/config.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/scala-arm_2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/reflections.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/scala-reflect.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/play-jdbc_2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/jackson-mapper-asl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/jta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/bonecp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/javassist.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/scala-io-file_2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/jackson-core-asl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/play_2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/httpcore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/guava.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/joda-time.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/akka-slf4j_2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/logback-classic.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/snakeyaml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/h2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/commons-lang3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/jboss-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/ehcache-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/scala-stm_2.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/signpost-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/tyrex.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/logback-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/hibernate-jpa-2.0-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/play-java_2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/play-java-ebean_2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/play-exceptions.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/commons-codec.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/avaje-ebeanorm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/spring-beans.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/staged/validation-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
