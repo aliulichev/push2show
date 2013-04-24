@@ -9,6 +9,8 @@ object ApplicationBuild extends Build {
 
   val appDependencies = Seq(
     // Add your project dependencies here,
+    "org.mongodb" % "mongo-java-driver" % "2.7.3",
+    "commons-io" % "commons-io" % "2.3",
     javaCore,
     javaJdbc,
     javaEbean
