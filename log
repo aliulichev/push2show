@@ -1,0 +1,102 @@
+2013-04-24T17:15:30.891794+00:00 app[web.1]: Unrecognized option: --http.port=48473
+2013-04-24T17:15:32.166938+00:00 heroku[web.1]: Process exited with status 1
+2013-04-24T17:17:37.995335+00:00 heroku[web.1]: Starting process with command `target/start --http.port=55643 $PLAY_OPTS`
+2013-04-24T17:17:38.789025+00:00 app[web.1]: Could not create the Java virtual machine.
+2013-04-24T17:17:38.788600+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS:  -Djava.rmi.server.useCodebaseOnly=true
+2013-04-24T17:17:38.788919+00:00 app[web.1]: Unrecognized option: --http.port=55643
+2013-04-24T17:17:40.290132+00:00 heroku[web.1]: Process exited with status 1
+2013-04-24T17:17:40.310641+00:00 heroku[web.1]: State changed from starting to crashed
+2013-04-24T17:22:44.549334+00:00 heroku[slugc]: Slug compilation started
+2013-04-24T17:24:52.611963+00:00 heroku[api]: Release v8 created by tohakv50@gmail.com
+2013-04-24T17:24:52.653377+00:00 heroku[api]: Deploy 4ec782a by tohakv50@gmail.com
+2013-04-24T17:24:52.727885+00:00 heroku[web.1]: State changed from crashed to starting
+2013-04-24T17:24:53.117500+00:00 heroku[slugc]: Slug compilation finished
+2013-04-24T17:25:01.609638+00:00 heroku[web.1]: Starting process with command `play run --http.port=16592 $PLAY_OPTS`
+2013-04-24T17:25:02.359271+00:00 app[web.1]: bash: play: command not found
+2013-04-24T17:25:03.583147+00:00 heroku[web.1]: State changed from starting to crashed
+2013-04-24T17:25:03.558050+00:00 heroku[web.1]: Process exited with status 127
+2013-04-24T17:25:45.909121+00:00 heroku[slugc]: Slug compilation started
+2013-04-24T17:28:00.483380+00:00 heroku[web.1]: State changed from crashed to starting
+2013-04-24T17:28:09.415147+00:00 heroku[api]: Release v9 created by tohakv50@gmail.com
+2013-04-24T17:28:09.450629+00:00 heroku[api]: Deploy 9604a62 by tohakv50@gmail.com
+2013-04-24T17:28:09.898178+00:00 heroku[slugc]: Slug compilation finished
+2013-04-24T17:28:11.839529+00:00 heroku[web.1]: Starting process with command `play run --http.port=13016 $PLAY_OPTS`
+2013-04-24T17:28:12.676631+00:00 app[web.1]: bash: play: command not found
+2013-04-24T17:28:15.096125+00:00 heroku[web.1]: Process exited with status 127
+2013-04-24T17:31:54.302102+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:33:00.645095+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:34:08.186097+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:34:34.717741+00:00 heroku[web.1]: Unidling
+2013-04-24T17:34:34.718275+00:00 heroku[web.1]: State changed from down to starting
+2013-04-24T17:34:46.339552+00:00 heroku[web.1]: Starting process with command `target/start -Dhttp.port=${PORT} ${JAVA_OPTS}`
+2013-04-24T17:34:47.057495+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS:  -Djava.rmi.server.useCodebaseOnly=true
+2013-04-24T17:34:48.087272+00:00 app[web.1]: Play server process ID is 2
+2013-04-24T17:34:48.087272+00:00 app[web.1]: This application is already running (Or delete /app/target/../RUNNING_PID file).
+2013-04-24T17:34:49.607189+00:00 heroku[web.1]: Process exited with status 255
+2013-04-24T17:34:49.618492+00:00 heroku[web.1]: State changed from starting to crashed
+2013-04-24T17:34:52.774210+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:36:18.220937+00:00 heroku[api]: Scale to web=1 by tohakv50@gmail.com
+2013-04-24T17:36:29.692388+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:36:29.926097+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:38:04.957061+00:00 heroku[web.1]: State changed from crashed to starting
+2013-04-24T17:38:11.847727+00:00 heroku[web.1]: Starting process with command `target/start -Dhttp.port=${PORT} ${JAVA_OPTS}`
+2013-04-24T17:38:12.450462+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS:  -Djava.rmi.server.useCodebaseOnly=true
+2013-04-24T17:38:12.848986+00:00 app[web.1]: Play server process ID is 2
+2013-04-24T17:38:12.849134+00:00 app[web.1]: This application is already running (Or delete /app/target/../RUNNING_PID file).
+2013-04-24T17:38:13.995797+00:00 heroku[web.1]: State changed from starting to crashed
+2013-04-24T17:38:13.991126+00:00 heroku[web.1]: Process exited with status 255
+2013-04-24T17:41:09.708141+00:00 heroku[api]: Starting process with command `bash` by tohakv50@gmail.com
+2013-04-24T17:41:15.424314+00:00 heroku[run.7445]: Awaiting client
+2013-04-24T17:41:15.445625+00:00 heroku[run.7445]: Starting process with command `bash`
+2013-04-24T17:41:45.650519+00:00 heroku[run.7445]: Process exited with status 0
+2013-04-24T17:41:45.659914+00:00 heroku[run.7445]: State changed from up to complete
+2013-04-24T17:42:16.825897+00:00 heroku[api]: Starting process with command `bash` by tohakv50@gmail.com
+2013-04-24T17:42:22.492771+00:00 heroku[run.3514]: Awaiting client
+2013-04-24T17:42:22.517157+00:00 heroku[run.3514]: Starting process with command `bash`
+2013-04-24T17:42:23.685961+00:00 heroku[run.3514]: State changed from starting to up
+2013-04-24T17:42:40.795398+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:42:40.976707+00:00 heroku[rou
+ter]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:42:42.039955+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:42:42.420058+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:43:38.521690+00:00 heroku[run.3514]: Client connection closed. Sending SIGHUP to all processes
+2013-04-24T17:43:39.601854+00:00 heroku[run.3514]: Process exited with status 0
+2013-04-24T17:43:52.811917+00:00 heroku[api]: Starting process with command `bash` by tohakv50@gmail.com
+2013-04-24T17:43:58.780060+00:00 heroku[run.3733]: Awaiting client
+2013-04-24T17:43:59.170602+00:00 heroku[run.3518]: Awaiting client
+2013-04-24T17:43:59.196333+00:00 heroku[run.3518]: Starting process with command `bash`
+2013-04-24T17:44:00.081970+00:00 heroku[run.3518]: State changed from starting to up
+2013-04-24T17:44:06.202890+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:06.849666+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:07.005418+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:07.925838+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.069239+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.082474+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.157597+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.190612+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.245179+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.277901+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.318728+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.386620+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.416178+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.433390+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.519748+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.354831+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.567487+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.602296+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.697797+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.742166+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.785023+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.807722+00:00 heroku[run.3733]: Error R99 (Platform error) -> Failed to launch the dyno within 10 seconds
+2013-04-24T17:44:08.807722+00:00 heroku[run.3733]: Stopping process with SIGKILL
+2013-04-24T17:44:08.845368+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.993170+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.511284+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:06.028451+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.835182+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:08.125387+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=young-oasis-1561.herokuapp.com fwd="77.243.166.246" dyno= connect= service= status=503 bytes=
+2013-04-24T17:44:20.987437+00:00 heroku[run.3733]: State changed from starting to up
+2013-04-24T17:44:28.787130+00:00 heroku[run.3733]: Error R13 (Attach error) -> Failed to attach to process
+2013-04-24T17:44:29.962410+00:00 heroku[run.3733]: Process exited with status 128
+2013-04-24T17:44:32.156461+00:00 heroku[run.3518]: Process exited with status 0
+2013-04-24T17:44:32.169709+00:00 heroku[run.3518]: State changed from up to complete
