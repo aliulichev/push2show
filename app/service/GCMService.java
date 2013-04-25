@@ -20,9 +20,9 @@ public class GCMService {
 		for (String id : post.to) {
 			User recipient = User.findByUid(id);
 			Logger.info("Sending push notification to " + recipient.googleRegId);
-			Message message = new Message.Builder().
-					addData("postId", post.id.toString())
-					.addData("fromName", post.fromName).collapseKey("push2show").build();
+			Message message = new Message.Builder()
+					.addData("postId", post.id.toString())
+					.addData("fromName", post.fromName).build();
 			Result result = sender.send(message, recipient.googleRegId, 5);
 			Logger.info("Message sent :" + result.getMessageId());
 		}

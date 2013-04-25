@@ -21,9 +21,6 @@ public class User {
 	
 	public String uid;
 	
-
-	
-	
 	@Override
 	public String toString() {
 		return "User [name=" + name + ", googleRegId=" + googleRegId + ", uid="
