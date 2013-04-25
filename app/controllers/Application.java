@@ -80,7 +80,7 @@ public class Application extends Controller {
 	}
 
 	public static Result allUsers() {
-		return ok(toJson(User.all()));
+		return ok(toJson(User.allExcept(request().getHeader("x-referer"))));
 	}
 
 	public static Result getPost(String postId) {

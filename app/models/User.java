@@ -35,8 +35,10 @@ public class User {
 		return MorphiaObject.datastore.find(User.class).field("uid").equal(uid).get();
 	}
 	
-	public static List<User> all() {
-		return MorphiaObject.datastore.find(User.class).asList();
+	public static List<User> allExcept(String uid) {
+		return MorphiaObject.datastore.find(User.class).field("uid").notEqual(uid).asList();
 	}
+	
+	
 	
 }
