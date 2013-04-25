@@ -27,6 +27,7 @@ public class Post {
 	public Post(List<String> to, User from, String url) {
 		this.to.addAll(to);
 		this.from = from.uid;
+		this.fromName = from.name;
 		this.url  = url;
 	}
 	
