@@ -15,13 +15,18 @@ public class Global extends GlobalSettings {
         super.beforeStart(app);
         Logger.debug("** onStart **");
         try {
-        	Logger.debug(Play.application().configuration().getString("mongoPort"));
-            MorphiaObject.mongo = new Mongo("127.0.0.1", Play.application().configuration().getInt("mongoPort"));
+        	Logger.debug(Play.application().configuration().getString("mongo.port"));
+            MorphiaObject.mongo = new Mongo(Play.application().configuration().getString("mongo.server"),
+            		Play.application().configuration().getInt("mongo.port"));
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
         MorphiaObject.morphia = new Morphia();
         MorphiaObject.datastore = MorphiaObject.morphia.createDatastore(MorphiaObject.mongo, "push2show");
+        MorphiaObject.morphia.createDatastore(MorphiaObject.mongo,
+        		Play.application().configuration().getString("mongo.db"),
+        		Play.application().configuration().getString("mongo.user"),
+        		Play.application().configuration().getString("mongo.password").toCharArray());
         MorphiaObject.datastore.ensureIndexes();
         MorphiaObject.datastore.ensureCaps();
 
