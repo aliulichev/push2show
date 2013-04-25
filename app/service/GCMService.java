@@ -12,13 +12,16 @@ import com.google.android.gcm.server.Result;
 import com.google.android.gcm.server.Sender;
 
 public class GCMService {
-	
+
 	Sender sender = new Sender(key());
 
 	public void sendPost(Post post) throws IOException {
 		// Very ugly but it might work
 		for (String id : post.to) {
 			User recipient = User.findByUid(id);
+			if (recipient == null) {
+				continue;
+			}
 			Logger.info("Sending push notification to " + recipient.googleRegId);
 			Message message = new Message.Builder()
 					.addData("postId", post.id.toString())
@@ -31,7 +34,5 @@ public class GCMService {
 	private static String key() {
 		return Play.application().configuration().getString("apikey").trim();
 	}
-	
-	
 
 }
