@@ -20,6 +20,10 @@ public class Post {
 	public String from;
 	public String fromName;
 	
+	public Post() {
+		// mongo stuff
+	}
+	
 	public Post(List<String> to, User from, String url) {
 		this.to.addAll(to);
 		this.from = from.uid;
