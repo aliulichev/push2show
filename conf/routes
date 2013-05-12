@@ -10,3 +10,4 @@ PUT     /user      		            controllers.Application.updateUser
 POST    /post                       controllers.Application.createPost
 GET     /post/:postId               controllers.Application.getPost(postId: String)
 GET     /users						controllers.Application.allUsers
+POST    /oauth/token                controllers.Application.auth()

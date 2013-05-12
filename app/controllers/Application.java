@@ -9,9 +9,11 @@ import models.Post;
 import models.User;
 
 import org.codehaus.jackson.JsonNode;
+import org.codehaus.jackson.node.ObjectNode;
 
 import play.Logger;
 import play.data.Form;
+import play.libs.Json;
 import play.mvc.Controller;
 import play.mvc.Result;
 import service.GCMService;
@@ -66,7 +68,7 @@ public class Application extends Controller {
 	}
 
 	public static Result allUsers() {
-		return ok(toJson(User.allExcept(request().getHeader("x-referer"))));
+		return ok(toJson(User.allExcept(currentUid())));
 	}
 
 	public static Result getPost(String postId) {
@@ -89,6 +91,16 @@ public class Application extends Controller {
 		}
 
 		return recipients;
+	}
+	
+	public static Result auth(){
+		ObjectNode result = Json.newObject();
+		result.put("access_token", "e765664d9e37eef3ec6527b55abbb16e3f9ef01c91ab843e7613a41c98c7b95e");
+		result.put("token_type", "bearer");
+		result.put("expires_in", "7200");
+		result.put("refresh_token", "null");
+		result.put("scope", "public private");
+		return ok(result);
 	}
 
 }
