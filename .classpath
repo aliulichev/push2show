@@ -115,5 +115,6 @@
 	<classpathentry kind="lib" path="E:/play/framework/sbt/boot/scala-2.10.0/lib/scala-library.jar"/>
 	<classpathentry kind="lib" path="lib/gsm-server.jar" sourcepath="/gcm-server"/>
 	<classpathentry kind="lib" path="lib/json_simple-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/restfb-1.6.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
